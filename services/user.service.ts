@@ -15,7 +15,7 @@ export const createUser = async (userDetails: any, password: string) => {
     return token
 }
 
-const generateToken = async (
+export const generateToken = async (
     phoneNumber: string,
     expiry: string | number = 300,
 ) => {

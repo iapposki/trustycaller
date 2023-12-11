@@ -18,8 +18,10 @@ model User {
   hash  String
 }
 
-model spam {
+model Spam {
   id  Int @id @default(autoincrement())
+  name  String?  @db.VarChar(30)
   phoneNumber String  @db.VarChar(15) @unique
+  numberWithoutCountryCode  String  @db.VarChar(12)
   reportedTimes Int @default(0)
 }

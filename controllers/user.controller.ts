@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import { createUser, validateUsernamePassword } from "../services/user.service";
-import {User} from '@prisma/client';
 
 export const signup = async (req: Request, res: Response) => {
     // get info from request body
