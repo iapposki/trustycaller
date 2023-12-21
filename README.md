@@ -15,3 +15,4 @@ To run the code :
 Notes : 
 - Feel free to add custom entries in the table using the prisma studio. Simply run ```npx run prisma studio``` in the root folder and add values as needed for testing purposes.
 - DB is hosted externally so migration is not needed. The db might take some time to start initially.
+ 
